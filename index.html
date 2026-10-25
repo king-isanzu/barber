@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Kata safi, style ya kipekee. Weka miadi yako kwenye barber shop yetu.">
+  <title>KING CLASSIC BARBERSHOP — Barber Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="header" id="home">
+    <a class="logo" href="#home"><span class="logo-mark">KC</span><span>GOLDEN<span class="gold">CUTS</span><small>BARBER STUDIO</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Fungua menyu">☰</button>
+    <nav id="nav">
+      <a href="#home">Nyumbani</a><a href="#services">Huduma</a><a href="#about">Kuhusu</a><a href="#gallery">Mitindo</a>
+      <a class="nav-book" href="#booking">Weka Miadi <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid"></div><canvas id="waveCanvas" aria-hidden="true"></canvas>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> PRECISION • STYLE • CONFIDENCE</p>
+        <h1>SI KUNYOA TU.<br><em>NI Sanaa.</em></h1>
+        <p class="hero-text">Kata safi. Fade kali. Muonekano unaokupa confidence ya kuingia popote kwa style yako mwenyewe.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#booking">Weka miadi <span>↗</span></a><a class="text-link" href="#services">Ona huduma <span>↓</span></a></div>
+        <div class="hero-proof"><div class="avatar-stack"><i>G</i><i>C</i><i>+</i></div><p><strong>Style yako, kiwango kingine.</strong><small>Huduma ya kitaalamu • Usafi kwanza</small></p></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="image-frame"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1100&q=85" alt="Barber akifanya kazi kwenye studio ya kisasa" fetchpriority="high"><div class="image-overlay"></div>
+          <div class="floating-tag"><span class="tag-icon">✦</span><span><strong>THE GOLD STANDARD</strong><small>Fresh cut. Fresh energy.</small></span></div>
+          <div class="vertical-label">YOUR STYLE. YOUR RULES.</div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><span class="scroll-line"></span><span>SCROLL TO DISCOVER</span><span class="hero-bottom-right">DAR ES SALAAM · TANZANIA</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Kauli mbiu"><div class="ticker-track"><span>FRESH CUTS</span><b>✦</b><span>SHARP FADES</span><b>✦</b><span>GOOD ENERGY</span><b>✦</b><span>YOUR BEST LOOK</span><b>✦</b><span>FRESH CUTS</span><b>✦</b><span>SHARP FADES</span><b>✦</b></div></section>
+
+    <section class="section services" id="services">
+      <div class="section-heading reveal"><div><p class="eyebrow"><span></span> WHAT WE DO</p><h2>Huduma zetu<span class="gold">.</span></h2></div><p>Kuanzia classic cut mpaka fade ya kisasa — tunakupa finish inayokufaa.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-num">01</div><div class="service-icon">✂</div><h3>Classic Haircut</h3><p>Kata safi na yenye mpangilio, inayokaa vizuri kwa kila siku.</p><div class="service-bottom"><span>KUANZIA</span><strong>TSh 5,000</strong></div></article>
+        <article class="service-card featured reveal"><div class="popular">MTEJA ANAPENDA</div><div class="service-num">02</div><div class="service-icon">〰</div><h3>Skin Fade</h3><p>Fade laini, blending safi na details zinazoonekana.</p><div class="service-bottom"><span>KUANZIA</span><strong>TSh 7,000</strong></div></article>
+        <article class="service-card reveal"><div class="service-num">03</div><div class="service-icon">♜</div><h3>Beard Grooming</h3><p>Shape-up ya ndevu, trimming na finishing ya kitaalamu.</p><div class="service-bottom"><span>KUANZIA</span><strong>TSh 3,000</strong></div></article>
+        <article class="service-card reveal"><div class="service-num">04</div><div class="service-icon">✦</div><h3>Full Grooming</h3><p>Haircut pamoja na beard care kwa muonekano uliokamilika.</p><div class="service-bottom"><span>KUANZIA</span><strong>TSh 10,000</strong></div></article>
+      </div>
+      <p class="price-note">* Bei ni za mfano — unaweza kuzibadilisha kulingana na biashara yako.</p>
+    </section>
+
+    <section class="about" id="about"><div class="about-photo reveal"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1000&q=85" alt="Vifaa vya kinyozi vilivyopangwa vizuri" loading="lazy"><div class="photo-stamp">EST.<br><b>YOUR<br>STYLE</b></div></div><div class="about-copy reveal"><p class="eyebrow"><span></span> MORE THAN A HAIRCUT</p><h2>Jitokeze.<br><em>Kwa kujiamini.</em></h2><p>Tunaamini haircut nzuri inabadilisha zaidi ya muonekano — inakupa confidence. Kila detail ina umuhimu: usafi, umakini na style inayolingana na wewe.</p><ul class="check-list"><li><span>✓</span> Vifaa safi na huduma makini</li><li><span>✓</span> Mitindo ya kisasa na classic</li><li><span>✓</span> Mazingira rafiki na yenye heshima</li></ul><a class="text-link" href="#booking">Njoo ujionee <span>↗</span></a></div></section>
+
+    <section class="gallery section" id="gallery"><div class="section-heading reveal"><div><p class="eyebrow"><span></span> THE LOOKBOOK</p><h2>Fresh looks<span class="gold">.</span></h2></div><p>Inspiration ya muonekano wako unaofuata.</p></div><div class="gallery-grid">
+      <figure class="gallery-item tall reveal"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85" alt="Muonekano wa haircut wa kisasa" loading="lazy"><figcaption><span>01 / THE CLASSIC</span><strong>Classic confidence</strong></figcaption></figure>
+      <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85" alt="Kinyozi akitengeneza fade" loading="lazy"><figcaption><span>02 / THE FADE</span><strong>Sharp by design</strong></figcaption></figure>
+      <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1593702295094-aea7c2e2d4c4?auto=format&fit=crop&w=900&q=85" alt="Barber shop tools and grooming" loading="lazy"><figcaption><span>03 / THE DETAIL</span><strong>Details matter</strong></figcaption></figure>
+    </div></section>
+
+    <section class="booking" id="booking"><div class="booking-bg"></div><div class="booking-inner"><div class="booking-copy reveal"><p class="eyebrow"><span></span> YOUR CHAIR IS WAITING</p><h2>Ready for a<br><em>fresh start?</em></h2><p>Jaza taarifa zako kuomba miadi. Tutakusaidia kuchagua huduma na muda unaokufaa.</p><div class="booking-details"><span>◷</span><div><strong>MASAA YA KAZI</strong><small>Jumatatu – Jumapili · 08:00 – 21:00</small></div></div><div class="booking-details"><span>⌖</span><div><strong>TEMBELEA STUDIO</strong><small>Weka eneo halisi la kinyozi chako hapa</small></div></div></div>
+      <form class="booking-form reveal" id="bookingForm"><p class="form-kicker">BOOK YOUR CUT <span>✦</span></p><h3>Omba miadi</h3>
+        <label for="name">Jina lako</label><input id="name" name="name" placeholder="Andika jina lako" required>
+        <div class="form-row"><div><label for="phone">Namba ya simu</label><input id="phone" name="phone" type="tel" placeholder="07xx xxx xxx" required></div><div><label for="service">Huduma</label><select id="service" name="service"><option>Classic Haircut — TSh 5,000</option><option>Skin Fade — TSh 7,000</option><option>Beard Grooming — TSh 3,000</option><option>Full Grooming — TSh 10,000</option></select></div></div>
+        <div class="form-row"><div><label for="date">Tarehe</label><input id="date" name="date" type="date" required></div><div><label for="time">Muda</label><select id="time" name="time"><option>08:00</option><option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option></select></div></div>
+        <button class="button button-gold submit-btn" type="submit">Tengeneza ombi la miadi <span>↗</span></button><p class="form-note">Ombi litaandaliwa kwa WhatsApp. Weka namba yako ya biashara kwenye script.js kabla ya kutumia booking moja kwa moja.</p><div class="form-result" id="formResult" aria-live="polite"></div>
+      </form>
+    </div></section>
+  </main>
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-mark">KC</span><span>GOLDEN<span class="gold">CUTS</span><small>BARBER STUDIO</small></span></a><p>Clean cuts. Clear confidence.</p><div class="footer-links"><a href="#services">Huduma</a><a href="#booking">Miadi</a><a href="#home">Juu ↑</a></div><small class="copyright">© <span id="year"></span> KING CLASSIC BARBERSHOP. ALL RIGHTS RESERVED.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
