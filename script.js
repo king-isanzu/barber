@@ -1,6 +1,6 @@
 // KING CLASSIC BARBERSHOP — interactivity and animated wave field
 // IMPORTANT: Badilisha namba hapa iwe namba ya WhatsApp ya biashara yako (country code bila +).
-const WHATSAPP_NUMBER = "255700000000";
+const WHATSAPP_NUMBER = "255611129510";
 
 const menuToggle = document.getElementById("menuToggle");
 const nav = document.getElementById("nav");
